@@ -20,6 +20,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Archiving projects
+
+Open a project and choose **Archive project** to remove it from the Active list.
+Stop its running timer first. Archiving preserves its tasks, sessions, and totals;
+all-time totals continue to include archived work.
+
+Use **Archived** on the projects screen to review a project, then choose
+**Restore project** to track time again. Project names remain reserved while
+archived, so restore an existing project instead of creating a duplicate.
+
+Run `npm test` for validation checks and `npm run test:integration` for Atlas
+checks, including archive/restore and concurrent archive/start requests.
+Integration checks use temporary test identities and remove their records.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
